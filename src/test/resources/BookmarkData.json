@@ -1,0 +1,30 @@
+{
+  "TC_BookmarkAdd_01" : [
+    {
+      "method": "add",
+      "user": "afaizal@wiley.com",
+      "schema": "programs",
+      "id": "1578571507695"
+    },
+    {
+      "method": "add",
+      "user": "afaizal@wiley.com",
+      "schema": "programs",
+      "id": "1578322017497"
+    }
+  ],
+  "TC_BookmarkRemove_01" : [
+    {
+      "method": "remove",
+      "user": "afaizal@wiley.com",
+      "schema": "programs",
+      "id": "1578571507695"
+    },
+    {
+      "method": "remove",
+      "user": "afaizal@wiley.com",
+      "schema": "programs",
+      "id": "1578322017497"
+    }
+  ]
+}
