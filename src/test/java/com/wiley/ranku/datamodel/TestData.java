@@ -42,6 +42,24 @@ public class TestData {
     @JsonProperty("TC_BookmarkRemove_01")
     private ArrayList<HashMap<String,String>>  TC_BookmarkRemove_01;
 
+    @JsonProperty("TC_PC_01")
+    private ArrayList<HashMap<String,String>>  TC_PC_01;
+
+    @JsonProperty("TC_PC_02")
+    private ArrayList<HashMap<String,String>>  TC_PC_02;
+
+    @JsonProperty("TC_PC_03")
+    private ArrayList<HashMap<String,String>>  TC_PC_03;
+
+    @JsonProperty("TC_PC_04")
+    private ArrayList<HashMap<String,String>>  TC_PC_04;
+
+    @JsonProperty("TC_PC_05")
+    private ArrayList<HashMap<String,String>>  TC_PC_05;
+
+    @JsonProperty("TC_PC_06")
+    private ArrayList<HashMap<String,String>>  TC_PC_06;
+
     ArrayList<HashMap<String,String>> data;
 
     public ArrayList<HashMap<String, String>> getDataSet(String id) {
@@ -82,6 +100,24 @@ public class TestData {
                 break;
             case "TC_BookmarkRemove_01":
                 data = TC_BookmarkRemove_01;
+                break;
+            case "TC_PC_01":
+                data = TC_PC_01;
+                break;
+            case "TC_PC_02":
+                data = TC_PC_02;
+                break;
+            case "TC_PC_03":
+                data = TC_PC_03;
+                break;
+            case "TC_PC_04":
+                data = TC_PC_04;
+                break;
+            case "TC_PC_05":
+                data = TC_PC_05;
+                break;
+            case "TC_PC_06":
+                data = TC_PC_06;
                 break;
         }
         return data;

@@ -1,9 +1,14 @@
-Specification Heading
+API Request for Event Modile
 =====================
-Created by afaizal on 8/3/2020
 
-This is an executable specification file which follows markdown syntax.
-Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
-Scenario Heading
-----------------
+##Create a new event for programs
+*Create new event for program
+
+##Get all details about an event with Event ID
+*Get details of an Event
+
+##Update an event in event module
+*Update an Event
+
+##Delete an Event
+*Delete an Event

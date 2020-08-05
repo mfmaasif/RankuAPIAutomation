@@ -1,0 +1,31 @@
+{
+  "Environment": {
+    "dev": "https://ranku-api-dev.herokuapp.com",
+    "stag": "",
+    "prod": ""
+  },
+  "Endpoints":{
+    "RFI": "",
+    "User": "",
+    "Bookmark": "",
+    "ProgramSearch": ""
+  },
+  "Bookmark": [{
+    {
+      "TestCaseNo": "",
+      "Data": [
+        {
+          "Client": "",
+          "Parameter": {
+            "site": "msu"
+          },
+          "RequestData": {
+
+          }
+        }
+      ]
+    },
+
+  }
+  ]
+}
