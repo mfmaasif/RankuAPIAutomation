@@ -5,54 +5,35 @@ import com.wiley.ranku.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.apache.commons.io.IOUtils;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Bookmarklmpl extends TestBase {
 
-    RequestSpecification request;
-    Response response;
+    @Step("<action> Bookmark to program <programID> for a user in <site>")
+    public void bookmarkPrograms(String action, String programID, String site) throws IOException {
+//        String site = "msu";
+        FileInputStream fileInputStream = new FileInputStream(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\BookmarkData.json"));
+        RestAssured.given()
+                .headers("x-api-key", "102a4fec2007388288ae37c9882c3604")
+                .headers("content-Type","application/json")
+                .queryParam("site",site)
+                .and()
+                .body(IOUtils.toString(fileInputStream,"UTF-8")
+                .replace("{{action}}",action)
+                .replace("{{programID}}",programID))
+                .log().all()
+                .when()
+                .put(System.getenv("site")+"/bookmark")
+                .then()
+                .statusCode(200)
+                .log().all();
 
-    ArrayList<HashMap<String, String>> dataset;
-    ArrayList<Response> responses;
-
-    String bookmarkurl = "https://ranku-api-dev.herokuapp.com/bookmark?site=msu";
-
-    public void bookmark(String testcaseID) {
-        responses = new ArrayList<Response>();
-        dataset = testData.getDataSet(testcaseID);
-
-        for (HashMap<String, String> d : dataset) {
-            setHeaders();
-            setResponseBodyBookmark(d);
-
-            request = RestAssured.given();
-            request.headers(header);
-            request.body(json.toJSONString());
-
-            response = request.put(bookmarkurl);
-           // System.out.println(bookmarkurl);
-
-            responses.add(response);
-        }
-    }
-
-    @Step("Bookmark a selected program <TC_BookmarkAdd_01>")
-    public void bookmarkProgram(String testcaseID) {
-        bookmark(testcaseID);
-        for (Response r : responses) {
-            // Assert.assertEquals(r.getStatusCode(),200);
-            System.out.println(r.getStatusCode() + " : ");
-        }
-    }
-
-    @Step("Remove bookmarked program <TC_BookmarkRemove_01>")
-    public void removeBookmarkedProgram(String testcaseID) {
-        bookmark(testcaseID);
-        for (Response r : responses) {
-            // Assert.assertEquals(r.getStatusCode(),200);
-            System.out.println(r.getStatusCode() + " : ");
-        }
     }
 }
