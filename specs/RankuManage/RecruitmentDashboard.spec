@@ -1,9 +1,15 @@
-Specification Heading
+API Request for Recruitment Dashboard
 =====================
-Created by afaizal on 7/20/2020
+  |site  |
+  |------|
+  |MSU   |
+  |STM   |
+  |SUNY  |
+##Get all active schools of a University
+*Get all active schools for <site>
 
-This is an executable specification file which follows markdown syntax.
-Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
-Scenario Heading
-----------------
+##Get total RFI counts by Degree Levels
+*Get RFI counts of <site> by Degree levels
+
+##Get total RFI count by field types
+*Get RFI counts of <site> by Field Types

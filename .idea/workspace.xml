@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54d2a76f-4959-4a61-8b13-1f9996616a3a" name="Default Changelist" comment="" />
+    <list default="true" id="54d2a76f-4959-4a61-8b13-1f9996616a3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/default/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/env/default/default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/RankuManage/EventManager.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RankuManage/EventManager.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/RankuManage/ProgramEditor.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RankuManage/ProgramEditor.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/RankuManage/RecruitmentDashboard.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RankuManage/RecruitmentDashboard.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/RankuManage/UserManage.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RankuManage/UserManage.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/RankuSite/Bookmark.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RankuSite/Bookmark.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/ManageUserUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/ManageUserUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Sites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/Sites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/PermissionBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/PermissionBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/ProductBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/ProductBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/Site.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/SiteBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/SiteBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/UpdateManageUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/UpdateManageUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UpdateManageUsers/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/payLoads/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/BookmarkData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BookmarkData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/EventCreate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/EventCreate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/EventUpdate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/EventUpdate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ManageUserUpdate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ManageUserUpdate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/NewManageUser.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/NewManageUser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestDataProgram.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestDataProgram.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +41,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Concept" />
         <option value="Specification" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1dqU5IRSbpJY8QgjBkzCr3gUPII" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dilini30/RankuAPIAutomation/RankuAPIAutomation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wiley.ranku.payLoads.UpdateManageUsers" />
+      <recent name="com.wiley.ranku.payLoads" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,6 +80,92 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Gauge Execution.EventManager.spec">
+    <configuration name="Add new Program with mandatory fields" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RankuManage/ProgramEditor.spec:8" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Create a new event for programs" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RankuManage/EventManager.spec:4" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManager.spec (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RankuManage/EventManager.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManager.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RankuManage/EventManager.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramEditor.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RankuManage/ProgramEditor.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gauge Execution.EventManager.spec" />
+        <item itemvalue="Gauge Execution.Create a new event for programs" />
+        <item itemvalue="Gauge Execution.EventManager.spec (1)" />
+        <item itemvalue="Gauge Execution.ProgramEditor.spec" />
+        <item itemvalue="Gauge Execution.Add new Program with mandatory fields" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,5 +178,18 @@
       <updated>1593151931577</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

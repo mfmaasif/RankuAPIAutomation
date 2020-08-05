@@ -1,0 +1,133 @@
+{
+  "TC_Login_01": [
+    {
+      "site": "msu",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "snuy",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "stm",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "indiana",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    }
+  ],
+  "TC_Login_02": [
+    {
+      "site": "msu",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test1234",
+      "ip": "::1"
+    },
+    {
+      "site": "suny",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test1234",
+      "ip": "::1"
+    },
+    {
+      "site": "stm",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test1234",
+      "ip": "::1"
+    },
+    {
+      "site": "indiana",
+      "type": "email",
+      "email": "TestAutomation@test.com",
+      "password": "Test1234",
+      "ip": "::1"
+    }
+  ],
+  "TC_Login_03": [
+    {
+      "site": "msu",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "snuy",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "stm",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    },
+    {
+      "site": "indiana",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test123",
+      "ip": "::1"
+    }
+  ],
+  "TC_Login_04": [
+    {
+      "site": "msu",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test",
+      "ip": "::1"
+    },
+    {
+      "site": "snuy",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test",
+      "ip": "::1"
+    },
+    {
+      "site": "stm",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test",
+      "ip": "::1"
+    },
+    {
+      "site": "indiana",
+      "type": "email",
+      "email": "Test@test.com",
+      "password": "Test",
+      "ip": "::1"
+    }
+  ],
+  "TC_SignUp_01": [
+    {
+      "first_name": "Testuser002",
+      "last_name": "TestAutomation",
+      "email": "test002@wiley.com",
+      "password": "test123",
+      "initial_ip": "::1",
+      "signup_through":"email",
+      "site": "msu"
+    }
+  ]
+}

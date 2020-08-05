@@ -1,9 +1,20 @@
 Specification Heading
 =====================
-Created by afaizal on 8/3/2020
 
-This is an executable specification file which follows markdown syntax.
-Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
-Scenario Heading
-----------------
+##Add new Program with mandatory fields
+* Add new Program "TC_PC_01"
+
+##Add new Program with all fields
+* Add new Program "TC_PC_02"
+
+##Update an existing program
+* Update an existing Program "TC_PC_03"
+
+##Publish a program
+* Publish Program "TC_PC_04"
+
+##Unpublish a program
+* Unublish Program "TC_PC_05"
+
+##Delete a program
+* Delete Program "TC_PC_06"

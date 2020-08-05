@@ -76,4 +76,20 @@ public class TestBase {
         json.put("data",object);
 
     }
+
+    public void setResponseProgram(HashMap<String, String> dataset){
+        JSONObject object = new JSONObject();
+        json=new JSONObject();
+
+        for(HashMap.Entry<String, String> entry : dataset.entrySet()){
+            object.put(entry.getKey(),entry.getValue());
+        }
+
+        json.put("data",object);
+        json.put("id","5f035d98b1aa0c000c77b6a8");
+        json.put("schemaName","programs");
+        json.put("user","lakithmuthugala@gmail.com");
+        json.put("_username","ranku");
+
+    }
 }
